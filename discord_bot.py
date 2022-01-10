@@ -5,7 +5,7 @@ from random import choice
 
 import json
 import os
-
+#veirjnerjivn
 if os.path.exists(os.getcwd() + "/config.json"):
     with open("./config.json") as f:
         configData = json.load(f)
